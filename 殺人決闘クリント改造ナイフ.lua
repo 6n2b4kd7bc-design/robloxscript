@@ -12,7 +12,7 @@ local LocalPlayer = Players.LocalPlayer
 -- ★★★ 設定（チームチェック有効） ★★★
 -- ============================================================
 local SETTINGS = {
-    ThrowInterval = 0.01,          -- 投擲間隔（秒）
+    ThrowInterval = 0,          -- 投擲間隔（秒）
     WallbangOffset = 9999,           -- 壁貫通オフセット
     HeadshotRate = 1,           -- ヘッドショット率
     FOV_Degrees = 999,            -- 全方位（制限したい場合は数値を減らす）
