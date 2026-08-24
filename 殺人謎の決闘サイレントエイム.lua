@@ -16,8 +16,8 @@ local UserInputService = game:GetService("UserInputService")
 -- ★★★ 設定・ステート変数 ★★★
 -- ============================================================
 local SCAN_INTERVAL = 0.15
-local FOV_RADIUS = 650
-local MAX_DIST = 300
+local FOV_RADIUS = 80
+local MAX_DIST = 999
 local PROXIMITY_THRESHOLD = 5
 local GUN_NAME = "Gun"
 
