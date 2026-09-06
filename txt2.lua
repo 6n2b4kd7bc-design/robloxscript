@@ -14,7 +14,7 @@ local cfg = {
     service = "universal troll",
     provider = "minitomato1900",
     discord = "https://work.ink/29FJ/first-step",
-    logo = "rbxassetid://121595097202790", -- CAT HUBロゴに変更推奨
+    logo = "rbxassetid://111213907861637", -- CAT HUBロゴに変更推奨
     -- ピンクテーマ
     barColor = Color3.fromRGB(255, 105, 180),       -- 光るピンク
     bgColor = Color3.fromRGB(35, 20, 40),           -- ダークピンク背景
@@ -420,6 +420,7 @@ local function loadMainScript()
     print("CAT HUB メインスクリプトをロードします")
     -- 仮の通知
     createNotification("CAT HUB", "メインスクリプトを読み込み中...", 3, "rbxassetid://87094841427580")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/6n2b4kd7bc-design/robloxscript/refs/heads/main/trollCAT.lua"))()
 end
 
 local function main()
